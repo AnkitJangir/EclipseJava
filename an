@@ -1,0 +1,171 @@
+% Copyright 2019 Clara Eleonore Pavillet
+
+% Author: Clara Eleonore Pavillet
+% Description: This is an unofficial Oxford University Beamer Template I made from scratch. Feel free to use it, modify it, share it.
+% Version: 1.0
+
+\documentclass{beamer}
+\input{Theme/Packages.tex}
+\usetheme{oxonian}
+
+\title{Web Development}
+\titlegraphic{\includegraphics[width=2cm]{Theme/Logos/resume.jpg}}
+\author{Submitted By : Ankit Kumar Jangir}
+\institute{Swami Keshvanand Institute Of Technology , Jaipur}
+\date{} %\today
+
+\begin{document}
+
+{\setbeamertemplate{footline}{} 
+\frame{\titlepage}}
+
+\section*{Content}\begin{frame}{Content}\tableofcontents\end{frame}
+
+\section{About The Company}
+    \begin{frame}
+        \vfill
+      \centering
+      
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \only<1>{
+            YouStart Labs is a education venture and provides some application  that works on different technology such as Machine Learning , Python , Ionic and Full Stack Development . The Company founded in 2015 by Abhishek Rathore  who is the BITS Pilani Alumni . YouStart Labs serves the best services and as well as the training and internship in Jaipur and Banglore.
+    }
+      \end{beamercolorbox}
+      
+      \vfill
+  \end{frame}
+  
+\section{Introduction}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \only<1>{
+            This is complete website that helps the user to search and find the trains , seat availibity , live status of the train  and PNR status of the ticket that he booked for a particular train .  
+        }
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+
+
+\section{Objective of Proposed System}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \only<1>{
+            The objective of this website is to provide the service to uneducated people with simple UI.It have also a flexible database so the user can find searched trains in future .
+            
+        }
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+
+\section{About Project}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \only<1>{
+            This is project is intend to provide the facility to search trains according the location , stations. The project alaso help the people to search the train offline , live status of  check the PNR status.
+        }
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+  
+  
+\section{Description}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \only<1>{
+            USer
+        }
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+  
+  
+\section{Functions}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+  
+  
+\section{Technology Used}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        
+        \begin{enumerate}
+        \item HTML
+        \item CSS
+        \item React.js
+        \item MongoDB
+        \end{enumerate}
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+  
+  
+\section{Technology Description}
+    \begin{frame}[plain]
+        \vfill
+      \centering
+      \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}\insertsectionhead\par%
+        \color{oxfordblue}\noindent\rule{10cm}{1pt} \\
+        \LARGE{\faFileTextO}
+      \end{beamercolorbox}
+      \vfill
+  \end{frame}
+\subsection{HTML}
+
+\begin{frame}{HTML}
+Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+HTML eements are the building blocks of HTML pages.HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+\end{frame}
+
+\subsection{CSS}
+
+\begin{frame}{CSS}
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.
+CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties.
+A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.
+
+\end{frame}
+
+\subsection{React}
+\begin{frame}{React}
+React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded. However, fetching data is only the beginning of what happens on a web page, which is why complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API, Next.js and Gatsby.js are examples of such libraries.
+    
+
+    
+\end{frame}
+\subsection{MongoDB}
+
+\end{document}
+
+

@@ -1,0 +1,21 @@
+package Vowel;
+import java.util.*;
+public class VowelRemoval {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String s;
+		System.out.print("Enter the String");
+		s=sc.next();
+		int l=s.length();
+		char c[]= {'a','e','i','o','u','A','E','I','O','U'};
+		for(int i=0;i<l;i++)
+		{
+			System.out.println(s[i]);
+			
+		}
+		
+	}
+
+}
